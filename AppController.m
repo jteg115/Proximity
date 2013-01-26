@@ -327,8 +327,8 @@
 	[device retain];
 	
 	[deviceName setStringValue:[NSString stringWithFormat:@"%@ (%@)",
-								[device getName],
-                [device getAddressString]]];
+								[device name],
+                [device addressString]]];
 }
 
 - (IBAction)checkConnectivity:(id)sender
